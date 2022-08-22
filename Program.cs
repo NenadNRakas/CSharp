@@ -82,7 +82,7 @@ namespace CSharp
             while (rep)
             {
                 Console.Write("Enter a number between -2,147,483,648 and +2,147,483,647: ");
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
                 try
                 {
                     numVals = Convert.ToInt32(input);
